@@ -30,3 +30,20 @@ An OpenCV implementation of YOLOv3. This was repo contains the material that was
     ```
 
 4. Download the [YOLOv3-416 weights file](https://pjreddie.com/darknet/yolo/) and place it in the project directory
+
+
+### Instructions
+There are two different versions included in this repo. The .ipybn files are meant to be imported into google colab.
+The .py file is meant to be ran on a local machine. To run yolo_detector.py first navigate to the directory in the terminal and run one of the three following commands
+
+1. To run yolo_detector.py on a single image, use the following command:
+
+    python yolo_detector.py --image 'image_path'
+
+2. To run yolo_detector.py on a single video, use the following command:
+
+    pythom yolo_detector.py --video 'video_path'
+    
+3. To run yolo_detector.py on a webcam feed, use the following command:
+
+    python yolo_detector.py
