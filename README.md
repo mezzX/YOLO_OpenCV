@@ -1,5 +1,5 @@
 # YOLO_OpenCV
-An OpenCV implementation of YOLOv3
+An OpenCV implementation of YOLOv3. This was repo contains the material that was covered during the Vancouver School of AI's Object Detection Workshop. The Workshop's slides can be viewed [here](https://docs.google.com/presentation/d/1Z4Pvyp2DMZ-go_SOcDDZNVFwn4TnKNq9k2iFsfGjk2k).
 
 ### Getting Started
 1. Make sure you have [Python 3.6](https://www.python.org/) installed.
