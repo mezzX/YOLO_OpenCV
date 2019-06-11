@@ -38,12 +38,18 @@ The .py file is meant to be ran on a local machine. To run yolo_detector.py firs
 
 1. To run yolo_detector.py on a single image, use the following command:
 
+    ```bash
     python yolo_detector.py --image 'image_path'
+    ```
 
 2. To run yolo_detector.py on a single video, use the following command:
 
-    pythom yolo_detector.py --video 'video_path'
+    ```bash
+    python yolo_detector.py --video 'video_path'
+    ```
     
 3. To run yolo_detector.py on a webcam feed, use the following command:
 
+    ```bash
     python yolo_detector.py
+    ```
